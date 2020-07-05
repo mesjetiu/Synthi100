@@ -1,3 +1,3 @@
 #!/bin/bash
-    cd $(dirname $0)
+    cd "$(dirname "$BASH_SOURCE")"
     x-terminal-emulator -e "sclang SGME.scd"
